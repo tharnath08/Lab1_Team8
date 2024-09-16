@@ -20,7 +20,7 @@ hello.txt:
 
 # run clean to remove all unecessary files
 clean:
-	rm -f *.i *.s *.o *.elf *.txtcd 
+	rm -f *.i *.s *.o *.elf *.txt 
 
 # rules modified to have implicit rule suusing % pattern
 %.i: %.c
